@@ -1,0 +1,93 @@
+
+/* green #819369
+brown #3f2a2b
+black- #323232
+white- #f7fafe
+*/
+
+body {
+	background-color: rgb(149, 173, 161);
+	color:#323232;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+
+}
+
+
+.jumbotron {
+	background-image: url("../img/coffee_header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center -150px;
+	padding: 20%;
+	/*margin-top: -40px;*/
+
+}
+
+.jumbotron h1 {
+	color:#f7fafe;
+	position: absolute;
+	font-family: "Raleway", sans-serif;
+	font-weight: lighter;
+	left: 0;
+	top: 18;
+	padding-left: 20px;
+}
+
+.mission {
+	background-color: #323232;
+	color: #f7fafe;
+	margin-top: -30px;
+
+}
+
+.mission h3 {
+	font-family: "Raleway", sans-serif;
+	/*font-size: 1.5em;
+	font-weight: normal;*/
+	padding: 2% 4%;
+	text-align: center;
+	/*margin-top: -5px;*/
+}
+
+.features {
+	padding: 5% 0;
+}
+
+.features p {
+	font-family: "Muli", sans-serif;
+	text-align: center;
+	color: #323232;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: #323232;
+	color: #f7fafe;
+	/*position: inline-block;
+	text-align: center;
+	font-size: 18px;*/
+	position:absolute;
+	width: 100%;
+
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	float: right;
+
+}
+
+footer p {
+	float: left;
+	padding: 2%;
+
+}
+
+footer a. footer p {
+	vertical-align: middle;
+}
